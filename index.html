@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style> * {font-family: 'roboto', 'Times New Roman', Times, serif;}</style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header"></div>
-        <div>Header Logo</div>  
-        <ul>
+    <div class="header">
+        <div class="logo">Header Logo</div>  
+        <ul class="links">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
             <li><a href="#">header link three</a></li>
@@ -18,45 +18,48 @@
     </div>
 
     <div class="hero">
-        <div>This website is awesome</div>
-        <div>this website has some subtext that goes here under the main title. 
-            It's a smaller font and the color is lower contrast.</div>
-        <button type="submit">Sign up</button>
-        <img src="images/milford.jpg" alt="milford sound fjords">
+        <div class="heroleft">
+            <div id="herotitle">This website is awesome</div>
+            <div id="herotext">this website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast.</div>
+            <button class="herobutton" type="button">Sign up</button>
+        </div>
+        <img class="milford" src="images/milford.jpg" alt="milford sound fjordland">
     </div>
 
-    <div class="sec2">
-        <div>some random information</div>
-        <div class="container">
-            <div class="info">
-                <img src="" alt="">
-                <div>this is some subtext under an illistration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div>this is some subtext under an illistration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div>this is some subtext under an illistration or image</div>
-            </div>
-            <div class="info">
-                <img src="" alt="">
-                <div>this is some subtext under an illistration or image</div>
-            </div>
+    
+    <div id="infotitle">some random information</div>
+    <div class="container">
+        <div class="info">
+             <img src="images/seagull.jpg" alt="seagull on post">
+             <div>this is some subtext under an illistration or image</div>
+         </div>
+        <div class="info">
+             <img src="images/moss.JPG" alt="New Zealand Moss">
+             <div>this is some subtext under an illistration or image</div>
+          </div>
+         <div class="info">
+              <img src="images/mountain.jpg" alt="New Zealand mountain near Queenstown">
+             <div>this is some subtext under an illistration or image</div>
         </div>
+                <div class="info">
+            <img src="images/river.jpg" alt="a river on the South island of New Zealand">
+            <div>this is some subtext under an illistration or image</div>
+       </div>
     </div>
 
     <div class="quote">
-        <p>this is an inspiring quote, or a testimonial from a customer. Maybe it 
-            will look good, or maybe it's just taking up space. Who knows? </p>
-        <p>-Thor, God of Thunder</p>
+        <p id="quote">"I don't know half of you half as well as I should like, and I 
+            like less than half of you half as well as you deserve." </p>
+        <p id="sig">-Bilbo Baggins</p>
     </div>
 
     <div class="signup">
-        <div>Call to action! It's Time</div>
-        <div>sign up for our product by clicking that button right over there</div>
-        <button type="submit">Sign up</button>
+        <div class="signuptext">
+            <div id="subold">Call to action! It's Time!</div>
+            <div>sign up for our product by clicking that button right over there</div>
+        </div>
+        <button class="signupbutton" type="button">Sign up</button>
     </div>
 
     <div class="footer">Copyright © The Odin Project 2021</div>
